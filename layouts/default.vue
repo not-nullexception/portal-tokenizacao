@@ -46,7 +46,7 @@
 <script>
 export default {
   data: () => ({
-    links: ["Dashboard", "Messages", "Profile", "Updates"],
+    links: ["Dashboard", "Tokens", "Profile"],
   }),
 };
 </script>
