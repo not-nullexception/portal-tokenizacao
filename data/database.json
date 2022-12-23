@@ -1,0 +1,52 @@
+{
+  "usuarios": [
+    {
+      "usuario": "clientex",
+      "nome": "Cliente X",
+      "ativos": [
+        {
+          "token": "Token Native",
+          "descricaoToken": "Um token incrível",
+          "qtdeComprada": 150,
+          "valorUnitario": 50.00,
+          "valorTotalComprado": 7500.00,
+          "frequenciaPagamento": "Mensal",
+          "indice": "IPCA",
+          "dataPrevisaoFinalizacaoAtivo": "2023-12-01 00:00:00",
+          "cronogramaPagamento": [
+            {
+              "status": "Pago",
+              "dataPrevistaPagamento": "2022-12-01 00:00:00",
+              "dataPagamento": "2022-12-01 01:00:00",
+              "valorPrevisto": 1000.00,
+              "valorPago": 1000.00
+            },
+            {
+              "status": "Pendente",
+              "dataPrevistaPagamento": "2023-01-01 00:00:00",
+              "dataPagamento": "2023-01-01 01:00:00",
+              "valorPrevisto": 1000.00,
+              "valorPago": 0
+            }
+          ],
+          "resumoCronogramaPagamento": {
+            "valorPendentePagamento": 7000.00,
+            "valorTotalPago": 1000.00
+          }
+        }
+      ]
+    }
+  ],
+  "tokens": [
+    {
+      "token": "Token Native",
+      "descricaoToken": "Um token incrível",
+      "valorUnitario": 50.00,
+      "qtdeDisponivel": 230,
+      "frequenciaPagamento": "Mensal",
+      "indice": "IPCA",
+      "dataPrevisaoFinalizacaoAtivo": "2023-12-01 00:00:00",
+      "ativo": true
+    }
+  ]
+}
